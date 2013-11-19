@@ -185,3 +185,16 @@ export BSPWM_SOCKET="/tmp/bspwm-socket"
 #if [[ "$TERM" == "rxvt-unicode-256color" ]]; then
 #	xseticon -id $WINDOWID /home/lluis/.icons/AwOkenWhite/clear/128x128/apps/terminal1.png
 #fi
+#
+export PATH=$PATH:/home/lluis/bin
+
+man() {
+	env LESS_TERMCAP_mb=$'\E[01;31m' \
+	LESS_TERMCAP_md=$'\E[01;38;5;74m' \
+	LESS_TERMCAP_me=$'\E[0m' \
+	LESS_TERMCAP_se=$'\E[0m' \
+	LESS_TERMCAP_so=$'\E[38;5;246m' \
+	LESS_TERMCAP_ue=$'\E[0m' \
+	LESS_TERMCAP_us=$'\E[04;38;5;146m' \
+	man "$@"
+}
