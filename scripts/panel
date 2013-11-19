@@ -8,7 +8,7 @@ bspc control --put-status
 
 case "$flavor" in
     bar)
-        cat "$PANEL_FIFO" | /home/sunn/scripts/panel_bar | bar
+        cat "$PANEL_FIFO" | /home/lluis/scripts/panel_bar | bar
         ;;
     dzen2)
         PANEL_HEIGHT=24

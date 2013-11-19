@@ -99,8 +99,8 @@ alias linuxremote='ssh -Y wei001@linuxremote1.eg.bucknell.edu'
 alias netspace="lftp -u wei001 ftp.netspace.bucknell.edu"
 alias HUB='sudo mount -t cifs //bucknellhub.com/HUB /mnt/HUB -o user=hubguest'
 alias HUBDropbox='sudo mount -t cifs //bucknellhub.com/Dropbox /mnt/HUBDropbox -o user=hubguest'
-alias somessh='ssh -i /home/sunn/.ssh/someecards'
-alias somescp='scp -i /home/sunn/.ssh/someecards'
+alias somessh='ssh -i /home/lluis/.ssh/someecards'
+alias somescp='scp -i /home/lluis/.ssh/someecards'
 
 # Programs
 alias installfont='sudo fc-cache -f -v'
@@ -115,7 +115,7 @@ alias bool='espresso -o eqntott'
 alias alsamixer="alsamixer -g"
 alias equalizer="alsamixer -D equal"
 alias mysqlt="mysql -u root -p cargo_science"
-alias redwm='cd ~/dwm; makepkg -g >> PKGBUILD; makepkg -efi --noconfirm; killall dwm; /home/sunn/scripts/dwm-status;'
+alias redwm='cd ~/dwm; makepkg -g >> PKGBUILD; makepkg -efi --noconfirm; killall dwm; /home/lluis/scripts/dwm-status;'
 
 # Shortcuts
 #alias rm='rm -i'
@@ -179,9 +179,9 @@ for dir in $pathdirs; do
 done
 
 export EDITOR="vim"
-export XDG_CONFIG_HOME="/home/sunn/.config"
+export XDG_CONFIG_HOME="/home/lluis/.config"
 export BSPWM_SOCKET="/tmp/bspwm-socket"
 
 #if [[ "$TERM" == "rxvt-unicode-256color" ]]; then
-#	xseticon -id $WINDOWID /home/sunn/.icons/AwOkenWhite/clear/128x128/apps/terminal1.png
+#	xseticon -id $WINDOWID /home/lluis/.icons/AwOkenWhite/clear/128x128/apps/terminal1.png
 #fi
