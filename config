@@ -100,7 +100,9 @@ chatnets = {
 
 channels = (
   { name = "#irssi"; chatnet = "ircnet"; autojoin = "No"; },
-  { name = "silc"; chatnet = "silc"; autojoin = "No"; }
+  { name = "silc"; chatnet = "silc"; autojoin = "No"; },
+  { name = "#n3d-linux"; chatnet = "freenode"; },
+  { name = "#archlinux"; chatnet = "freenode"; }
 );
 
 aliases = {
