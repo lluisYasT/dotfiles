@@ -4,9 +4,8 @@ compinit
 promptinit
 colors
 
-PROMPT="
-%{$fg[red]%} »  %{$reset_color%}"
-RPROMPT="%B%{$fg[cyan]%}%~%{$reset_color%}"
+PROMPT="%B%{$fg[cyan]%}%~%{$reset_color%}%{$fg[red]%} >  %{$reset_color%}"
+RPROMPT="%{$fg[cyan]%}[ %T ]%{$reset_color%}"
 
 [[ -t 1 ]] || return
 case $TERM in
@@ -93,25 +92,11 @@ function music()
 
 # Sudo alias 
 alias svim='sudoedit'
-# Network alias
-alias linuxremotefs='sshfs wei001@linuxremote1.eg.bucknell.edu:/nfs/unixspace ~/bucknell'
-alias linuxremote='ssh -Y wei001@linuxremote1.eg.bucknell.edu'
-alias netspace="lftp -u wei001 ftp.netspace.bucknell.edu"
-alias HUB='sudo mount -t cifs //bucknellhub.com/HUB /mnt/HUB -o user=hubguest'
-alias HUBDropbox='sudo mount -t cifs //bucknellhub.com/Dropbox /mnt/HUBDropbox -o user=hubguest'
-alias somessh='ssh -i /home/lluis/.ssh/someecards'
-alias somescp='scp -i /home/lluis/.ssh/someecards'
 
 # Programs
 alias installfont='sudo fc-cache -f -v'
-alias muttb='mutt -F ~/.mutt/acct/wei001'
-alias muttg='mutt -F ~/.mutt/acct/windelicato'
-alias muttsuns='mutt -F ~/.mutt/acct/suns'
-alias muttecards='mutt -F ~/.mutt/acct/someecards'
-alias bool='espresso -o eqntott'
-#alias compton='compton -cCfF -I 0.065 -O 0.065 -D 6' 
-#alias compton='compton -cCGfF -o 0.38 -O 200 -I 200 -t 0.02 -l 0.02 -r 3.2 -D2 -m 0.88'
-#alias scrot="scrot -q100  -d 5"
+alias muttu='mutt -F ~/.mutt/upv'
+alias muttg='mutt -F ~/.mutt/gmail'
 alias alsamixer="alsamixer -g"
 alias equalizer="alsamixer -D equal"
 alias mysqlt="mysql -u root -p cargo_science"
