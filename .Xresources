@@ -25,6 +25,7 @@ urxvt*internalBorder: 		10
 !URxvt.keysym.C-minus: command:\033]710;-*-tewi-medium-r-normal-*-*-*-*-*-*-*-*-*\007\033]711;-*-tewi-medium-r-normal-*-*-*-*-*-*-*-*-*\007
 !URxvt.keysym.C-equal: command:\033]710;xft:inconsolata:size=8\007\033]711;xft:inconsolata:size=8\007
 
+urxvt*font: xft:source code pro medium:size=6
 !urxvt*font: xft:dejavu sans mono:size=10
 !urxvt*boldFont: xft:dejavu sans mono:bold:size=10
 !urxvt*italicFont: xft:dejavu sans mono:italic:size=10
@@ -97,10 +98,10 @@ urxvt*internalBorder: 		10
 !urxvt*italicFont: -*-gohufontmod11-medium-r-normal-*-11-*-*-*-*-*-*-*
 !urxvt*bolditalicFont: -*-gohufontmod11-bold-r-normal-*-11-*-*-*-*-*-*-*
 
-urxvt*font: -*-gohufont-medium-r-normal-*-11-*-*-*-*-*-*-*
-urxvt*boldFont: -*-gohufont-bold-r-normal-*-11-*-*-*-*-*-*-*
-urxvt*italicFont: -*-gohufont-medium-r-normal-*-11-*-*-*-*-*-*-*
-urxvt*bolditalicFont: -*-gohufont-bold-r-normal-*-11-*-*-*-*-*-*-*
+!urxvt*font: -*-gohufont-medium-r-normal-*-11-*-*-*-*-*-*-*
+!urxvt*boldFont: -*-gohufont-bold-r-normal-*-11-*-*-*-*-*-*-*
+!urxvt*italicFont: -*-gohufont-medium-r-normal-*-11-*-*-*-*-*-*-*
+!urxvt*bolditalicFont: -*-gohufont-bold-r-normal-*-11-*-*-*-*-*-*-*
 
 !urxvt*font: -*-terminus12-medium-r-normal-*-*-*-*-*-*-*-*-*
 !urxvt*boldFont: -*-terminus12-bold-r-normal-*-*-*-*-*-*-*-*-*
