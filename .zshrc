@@ -97,7 +97,6 @@ alias svim='sudoedit'
 alias installfont='sudo fc-cache -f -v'
 alias muttu='mutt -F ~/.mutt/upv'
 alias muttg='mutt -F ~/.mutt/gmail'
-alias alsamixer="alsamixer -g"
 alias equalizer="alsamixer -D equal"
 alias mysqlt="mysql -u root -p cargo_science"
 alias redwm='cd ~/dwm; makepkg -g >> PKGBUILD; makepkg -efi --noconfirm; killall dwm; /home/lluis/scripts/dwm-status;'
