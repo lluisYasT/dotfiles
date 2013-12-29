@@ -143,6 +143,11 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+
+# Obtain public IP
+alias public_ip="curl ifconfig.me"
+
+
 set -o noclobber
 set -o vi
 
