@@ -110,10 +110,6 @@ alias emac='emacs -nw'
 alias h='history | tail'
 alias hg='history | grep '
 alias ch='chmod 755 '
-alias ~='urxvtc' #Open new terminals in current working directory
-alias ~~='urxvtc && urxvtc'
-alias ~~~='urxvtc && urxvtc && urxvtc'
-alias ~~~~='urxvtc && urxvtc && urxvtc && urxvtc'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -145,6 +141,11 @@ alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
+
+
+# Obtain public IP
+alias public_ip="curl ifconfig.me"
+
 
 set -o noclobber
 set -o vi
