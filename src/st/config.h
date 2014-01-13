@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Inconsolata:pixelsize=13:antialias=true:autohint=true";
+static char font[] = "Source Code Pro Medium:pixelsize=13:antialias=true:autohint=true";
 /*static char font[] =
  * "Terminus:pixelsize=12:antialias=false:autohint=false"a*/
 static int borderpx = 2;
